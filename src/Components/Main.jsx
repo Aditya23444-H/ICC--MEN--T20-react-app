@@ -2,11 +2,11 @@ import Standings from "./Standings";
 import Hilights from "./Hilights";
 import Videos from "./Videos";
 
-function Main(){
+function Main(props){
     return(
     <>
     <Standings />
-    <Videos />
+    <Videos scroll={props.scroll}/>
     <Hilights />
     </>
     );

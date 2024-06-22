@@ -265,7 +265,7 @@ body {
 
 .video-cards {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 .videos h2 {
@@ -292,7 +292,8 @@ body {
 }
 
 .scroll-buttons button {
-  padding: 0 20px;
+  padding: 0;
+  margin: 0 20px;
   border: none;
 }
 
@@ -300,14 +301,16 @@ body {
   height: 10px;
   width: 30px;
   border-radius: 5px;
-  background-color: #c2c2c2;
+  background-color: #fff;
+  transition: all 0.5s;
 }
 
 .non-active-scrolling {
   height: 10px;
   width: 10px;
-  clip-path: circle();
-  background-color: #fff;
+  border-radius: 5px;
+  background-color: #c2c2c2;
+  transition: all 0.5s;
 }
 
 .sidebar {
@@ -376,14 +379,6 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.active {
-  display: flex;
-}
-
-.non-active {
-  display: none;
 }
 
 .side-icc-logo img {
