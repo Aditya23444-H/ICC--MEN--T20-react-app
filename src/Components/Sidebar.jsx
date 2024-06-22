@@ -13,7 +13,7 @@ function Sidebar(props) {
         <div className="horizontal-bar"></div>
         <div className="sidemenu">
             <ul>
-                <li><a href="#">HOME</a></li>
+                <li ><a className='active-sidebar' href="#">HOME</a></li>
                 <li><a href="#">MATCHES</a></li>
                 <li><a href="#">STANDINGS</a></li>
                 <li><a href="#">NEWS</a></li>
