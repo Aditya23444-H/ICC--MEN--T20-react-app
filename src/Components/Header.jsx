@@ -12,7 +12,7 @@ function Header(props){
                 <span className="bar"></span>
                 <span className="bar"></span>
             </button>
-            <img src="./t20-logo-horizontal-light.svg" alt="icc-men-t20-logo" />
+            <img src="../src/assets/t20-logo-horizontal-light.svg" alt="icc-men-t20-logo" />
             <hr />
             <div className="nav-items">
                 <ul>

@@ -7,7 +7,7 @@ function Sidebar(props) {
         <div className="heading">
             <button className='close-button' onClick={()=>{props.toggleSidebar()}}>&times;</button>
             <div className="side-icc-logo">
-                <div className='icc-logo'><img src="../t20-logo-horizontal-light.svg" alt="icc-logo" /></div>
+                <div className='icc-logo'><img src="../src/assets/t20-logo-horizontal-light.svg" alt="icc-logo" /></div>
             </div>
         </div>
         <div className="horizontal-bar"></div>

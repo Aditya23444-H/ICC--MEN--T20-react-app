@@ -7,13 +7,13 @@ function Footer(){
             <div className="prem-partners partners flex-column">
                 <div className="spon-logos flex-row">
                     <div className='spon'>
-                        <a href="#"><img src="	../Emirates.png" alt="emirates" /></a>
+                        <a href="#"><img src="	../src/assets/Emirates.png" alt="emirates" /></a>
                     </div>
                     <div className="spon">
-                        <a href="#"><img src="	.//aramco.png" alt="aramco" /></a>
+                        <a href="#"><img src="	../src/assets/aramco.png" alt="aramco" /></a>
                     </div>
                     <div className="spon">
-                        <a href="#"><img src="../DP_World.png" alt="dp-world" /></a>
+                        <a href="#"><img src="../src/assets/DP_World.png" alt="dp-world" /></a>
                     </div>
                 </div>
                 <div><p>Premier partners</p></div>
@@ -22,10 +22,10 @@ function Footer(){
             <div className="glob-partners partners flex-column">
                 <div className="spon-logos flex-row">
                     <div className='spon'>
-                        <a href="#"><img src="	../cocacola.png" alt="coca-cola" /></a>
+                        <a href="#"><img src="	../src/assets/cocacola.png" alt="coca-cola" /></a>
                     </div>
                     <div className="spon">
-                        <a href="#"><img src="	../IndusInd.png" alt="aramco" /></a>
+                        <a href="#"><img src="	../src/assets/IndusInd.png" alt="aramco" /></a>
                     </div>
                 </div>
                 <div>
@@ -37,10 +37,10 @@ function Footer(){
                 <div className="official-partners flex-column">
                     <div className="spon-logos flex-row">
                         <div className='spon'>
-                            <a href="#"><img src="	../Royal_Stag.png" alt="emirates" /></a>
+                            <a href="#"><img src="	../src/assets/Royal_Stag.png" alt="emirates" /></a>
                         </div>
                         <div className="spon">
-                            <a href="#"><img src="	../FanCraze.png" alt="aramco" /></a>
+                            <a href="#"><img src="	../src/assets/FanCraze.png" alt="aramco" /></a>
                         </div>
                         <div className="spon">
                             <a href="#"><img src="	https://images.icc-cricket.com/image/private/t_w_180/v1718351614/prd/assets/sponsors/near_dark.png" alt="aramco" /></a>
@@ -54,7 +54,7 @@ function Footer(){
                 <div className="social-partners flex-column">
                     <div className="spon-logos flex-row">
                         <div className='spon'>
-                            <a href="#"><img src="	../cricket.png" alt="emirates" /></a>
+                            <a href="#"><img src="	../src/assets/cricket.png" alt="emirates" /></a>
                         </div>
                     </div>
                     <div>
@@ -75,7 +75,7 @@ function Footer(){
 
         <div className="horizontal-bar"></div>
         
-        <div id="copyright-logo"> <img src="../icc-white-logo.svg" alt="icc-logo" /></div>
+        <div id="copyright-logo"> <img src="../src/assets/icc-white-logo.svg" alt="icc-logo" /></div>
         <div className="copyright"><p>Copyright 2024 ICC. All rights reserved.</p></div>
         
     </div>

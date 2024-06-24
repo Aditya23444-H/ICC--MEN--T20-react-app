@@ -70,7 +70,7 @@ body {
 }
 
 .main {
-  background-image: url("../background.jpeg");
+  background-image: url("../src/assets/background.jpeg");
   background-position: center;
   height: 100vh;
   display: flex;

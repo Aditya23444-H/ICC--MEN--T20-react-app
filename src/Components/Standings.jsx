@@ -1,7 +1,7 @@
 
 function Standings(){
     let thead=['POS','Team','pld','nrr','pts'];
-    let item=[[1,'../afg.png','AFG',0,'-',0],[1,'../afg.png','AFG',0,'-',0],[1,'../afg.png','AFG',0,'-',0],[1,'../afg.png','AFG',0,'-',0]]
+    let item=[[1,'../src/assets/afg.png','AFG',0,'-',0],[1,'../src/assets/afg.png','AFG',0,'-',0],[1,'../src/assets/afg.png','AFG',0,'-',0],[1,'../src/assets/afg.png','AFG',0,'-',0]]
 
     return(
     <>

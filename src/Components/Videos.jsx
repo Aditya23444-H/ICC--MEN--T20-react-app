@@ -22,17 +22,17 @@ export default function Videos(props) {
             <div className="videos">
                 <h2>VIDEOS</h2>
                 <div className="video-cards" ref={ref}>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
-                <Video title="Something random is not actually random" img='../video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
+                <Video title="Something random is not actually random" img='../src/assets/video.jpeg'/>
                 </div>
                 <div className="scroll-buttons">
                     {items.map((_,index)=>{
