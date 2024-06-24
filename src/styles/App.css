@@ -32,6 +32,18 @@ body {
   padding: 10px 10px;
 }
 
+.signup {
+  right: 0;
+  margin-left: 400px;
+}
+
+.signup a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 .bar {
   height: 2px;
   width: 25px;

@@ -1,0 +1,111 @@
+.body-l {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../src/assets/illustration.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.container-l {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #444444;
+  margin-top: 30px;
+  padding: 20px 40px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-l h1 {
+  margin-top: 20px;
+  font-size: larger;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container-l div:not(.remember, .forgot) {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container-l input {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #444444;
+}
+
+.container-l button:not(.facebook, .google) {
+  margin-top: 20px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  width: 220px;
+  background-color: #296ec6;
+}
+
+.container-l button:not(.facebook, .google):hover {
+  background-color: #1f5daf;
+}
+
+.container-l #create {
+  margin-top: 50px;
+}
+
+.container-l .options-l {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-l .options-l .forgot {
+  display: inline-block;
+}
+
+.container-l .options-l .remember {
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  position: relative;
+  color: #000;
+}
+
+.container-l .options-l .remember input {
+  width: 15px;
+  color-scheme: none;
+  margin-right: 10px;
+}
+
+.signup-rem {
+  margin-top: 20px;
+  font-size: medium;
+}
+
+.social-button {
+  margin-top: 20px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: transparent;
+  color: #000;
+  font-size: medium;
+  border: 2px solid black;
+}
+
+.facebook:hover {
+  color: #fff;
+  background-color: #1f5daf;
+}
+
+.google:hover {
+  color: #fff;
+  background-color: #af5d1f;
+}

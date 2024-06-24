@@ -1,4 +1,5 @@
 import Sidebar from "./Sidebar";
+import { Link } from "react-router-dom";
 
 function Header(props){
     return(
@@ -27,6 +28,9 @@ function Header(props){
                     <li><a href="#">ticketing</a></li>
                     <li><a href="#">more</a></li>
                 </ul>
+            </div>
+            <div className="signup">
+                <Link to='/Login'>Log In</Link>
             </div>
 
         </div>
