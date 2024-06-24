@@ -33,7 +33,7 @@
   color: #444444;
 }
 
-.container p {
+.container .verify {
   margin-top: 20px;
   font-size: small;
 }
@@ -87,4 +87,22 @@
 
 .container #create {
   margin-top: 50px;
+}
+
+.container .pass p {
+  font-size: small;
+  font-weight: 600;
+}
+
+.required {
+  margin-top: 10px;
+  font-size: small;
+  position: absolute;
+  left: 37%;
+  bottom: -25%;
+}
+
+.container span {
+  color: red;
+  font-size: small;
 }
