@@ -32,12 +32,19 @@ body {
   padding: 10px 10px;
 }
 
-.signup {
+.login {
   right: 0;
   margin-left: 400px;
+  border: 2px solid #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
-.signup a {
+.login:hover {
+  background-color: #0501c7;
+}
+
+.login a {
   text-decoration: none;
   font-weight: 700;
   color: #fff;

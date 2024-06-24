@@ -47,6 +47,15 @@
   border: 1px solid #444444;
 }
 
+#countries {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #444444;
+}
+
 .container button {
   margin-top: 20px;
   padding: 15px 40px;
