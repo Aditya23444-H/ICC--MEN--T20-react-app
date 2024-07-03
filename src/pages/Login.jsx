@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/Login.css';
+import { useState } from 'react';
 
 export default function Login() {
   let [data, setData]=useState({
@@ -30,7 +31,7 @@ export default function Login() {
     } else if (data.password.length<6){
       errormessage.password = 'password length should be greater than 8'
     }
-
+    setErrors(errormessage);
   }
 
 

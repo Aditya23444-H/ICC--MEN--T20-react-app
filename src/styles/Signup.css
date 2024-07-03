@@ -86,7 +86,7 @@
 }
 
 .container #create {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .container .pass p {
@@ -104,5 +104,10 @@
 
 .container span {
   color: red;
+  font-size: small;
+}
+
+.login-alert {
+  margin-top: 20px;
   font-size: small;
 }

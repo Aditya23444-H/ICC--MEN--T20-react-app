@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Signup.css';
+import { Link } from 'react-router-dom';
 
 export default function Signup() {
   let [data, setData]=useState({
@@ -57,12 +58,10 @@ export default function Signup() {
             <input type="text" name='lastname' placeholder='Last Name' />
           </div>
           <div className="email">
-            <p className='verify'>Verification is necessary. Please click Send button.</p>
             <h1>Email Address*</h1>
             <input type="email" name='email' placeholder='Email Address' onChange={handleChange}/>
             {errors.email && <span>{errors.email}</span>}
           </div>
-          <button className="submit" id="ver-code" type='submit'>Send verification code</button>
           <div className="country">
             <h1>Country*</h1>
             <select name="country" id="countries">
@@ -98,6 +97,7 @@ export default function Signup() {
             <input type="checkbox" name="privacypolicy" id="pp" />
             <p>I have read and understood the Privacy Policy and agree to the Terms and Conditions</p>
           </div>
+          <p className='login-alert'>Have an account already <Link to='../Login'>Login</Link></p>
           <button className="submit" id="create" type='submit'>Create Account</button>
         </div>
       </div>
