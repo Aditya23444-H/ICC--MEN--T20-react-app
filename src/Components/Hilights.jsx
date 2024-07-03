@@ -1,5 +1,6 @@
 import Hilight from './Hilight'
 import { useState ,useRef} from 'react';
+import titles from '../data/data.json';
 
 function Hilights(){
     let items=[];
@@ -17,49 +18,6 @@ function Hilights(){
         console.log(index,off);
     }
 
-
-    const titles = [
-        {
-            title: "New Year T20 Blast",
-            date: "01-01-2024"
-        },
-        {
-            title: "Australia vs India T20",
-            date: "15-02-2024"
-        },
-        {
-            title: "England vs South Africa T20",
-            date: "10-03-2024"
-        },
-        {
-            title: "IPL 2024 Opening Match",
-            date: "10-04-2024"
-        },
-        {
-            title: "IPL 2024 Final",
-            date: "01-06-2024"
-        },
-        {
-            title: "West Indies vs New Zealand T20",
-            date: "05-07-2024"
-        },
-        {
-            title: "Asia Cup T20 Final",
-            date: "14-09-2024"
-        },
-        {
-            title: "ICC Men's T20 World Cup Opening Match",
-            date: "16-10-2024"
-        },
-        {
-            title: "ICC Men's T20 World Cup Final",
-            date: "13-11-2024"
-        },
-        {
-            title: "Big Bash League 2024 Opening Match",
-            date: "15-12-2024"
-        }
-    ];
 
     function formatDate(inputDate) {
         const [year, month, day] = inputDate.split('-');

@@ -1,0 +1,52 @@
+[
+    {
+        "eventName" : "T20 Worldcup",
+        "title": "New Year T20 Blast",
+        "date": "01-01-2024"
+    },
+    {
+        "eventName" : "T20 Worldcup",
+        "title": "Australia vs India T20",
+        "date": "15-02-2024"
+    },
+    {
+        "eventName" : "T20 Worldcup",
+        "title": "England vs South Africa T20",
+        "date": "10-03-2024"
+    },
+    {
+        "eventName": "IPL",
+        "title": "IPL 2024 Opening Match",
+        "date": "10-04-2024"
+    },
+    {
+        "eventName": "IPL",
+        "title": "IPL 2024 Final",
+        "date": "01-06-2024"
+    },
+    {
+        "eventName" : "T20 Worldcup",
+        "title": "West Indies vs New Zealand T20",
+        "date": "05-07-2024"
+    },
+    {
+        "eventName": "Asia cup",
+        "title": "Asia Cup T20 Final",
+        "date": "14-09-2024"
+    },
+    {
+        "eventName" : "T20 Worldcup",
+        "title": "ICC Men's T20 World Cup Opening Match 2024",
+        "date": "16-10-2024"
+    },
+    {
+        "eventName" : "T20 Worldcup",
+        "title": "ICC Men's T20 World Cup Final 2024",
+        "date": "13-11-2024"
+    },
+    {
+        "eventName": "Big Bash League",
+        "title": "Big Bash League 2024 Opening Match",
+        "date": "15-12-2024"
+    }
+]
